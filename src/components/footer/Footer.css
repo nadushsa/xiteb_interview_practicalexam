@@ -94,3 +94,9 @@
         }
     }
 }
+
+@media (max-width: 480px) {
+    .footer {
+        padding-bottom: 450px;
+    }
+}
