@@ -17,20 +17,20 @@ const Navbar = () => {
       setDropdown1Open(true);
     };
     const handleMouseEnter2 = () => {
-        setDropdown2Open(true);
-      };
-      const handleMouseEnter3 = () => {
-        setDropdown3Open(true);
-      };
-      const handleMouseEnter4 = () => {
-        setDropdown4Open(true);
-      };
-      const handleMouseEnter5 = () => {
-        setDropdown5Open(true);
-      };
-      const handleMouseEnter6 = () => {
-        setDropdown6Open(true);
-      };
+      setDropdown2Open(true);
+    };
+    const handleMouseEnter3 = () => {
+      setDropdown3Open(true);
+    };
+    const handleMouseEnter4 = () => {
+      setDropdown4Open(true);
+    };
+    const handleMouseEnter5 = () => {
+      setDropdown5Open(true);
+    };
+    const handleMouseEnter6 = () => {
+      setDropdown6Open(true);
+    };
     
     const handleMouseLeave1 = () => {
       setDropdown1Open(false);

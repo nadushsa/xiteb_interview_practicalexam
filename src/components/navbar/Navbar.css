@@ -61,7 +61,7 @@
 
     .nav2 {
         background-color: #333;
-    
+
         .container {
             display: flex;
             justify-content: space-between;
@@ -73,6 +73,7 @@
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
+                min-height: 50px;
     
                 ul {
                     display: flex;
@@ -82,10 +83,9 @@
                     li {
                         list-style: none;
                         display: flex;
-                        margin: 0px 20px 0px 0px;
-                        padding: 0px 10px 0px 10px;
+                        margin: 0px 0px 0px 0px;
+                        padding: 10px 5px 10px 5px;
                         align-items: center;
-                        height: 45px;
                         font-weight: bolder;
                         cursor: pointer;
     
@@ -108,10 +108,13 @@
                             text-align: left;
                             justify-content: flex-start;
                             display: flex;
-                            top: 10vh;
+                            top: 120px;
                             left: 0;
-                            padding: 30px 15.5vw;
+                            padding: 30px 10vw;
                             width: 100%;
+                            background-color: white;
+                            height: auto;
+                            z-index: 1;
 
                             .column {
                                 width: 25%;

@@ -1,0 +1,96 @@
+.footer {
+    padding: 250px 0px;
+    background-image: url(../../../public/img/footer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    .container {
+        .top {
+            width: 80%;
+
+            .row {
+                .column {
+                    text-align: left;
+                    
+
+                    h6 {
+                        font-size: 25px;
+                        font-style: italic;
+                        color: #333;
+                        padding: 0px;
+                    }
+
+                    a {
+                        text-decoration: none;
+                        padding: 20px 0px;
+                        color: black;
+                        opacity: 0.7;
+                        display: block;
+                    }
+
+                    .social-media {
+                        display: flex;
+                        justify-content: space-between;
+
+                        a {
+                            img {
+                                width: 50px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        @media (max-width: 480px) {
+            .top {
+                width: 100%;
+            }
+        }
+
+        .bottom {
+            .form {
+                form {
+                    text-align: left;
+
+                    h5 {
+                        font-size: 25px;
+                        font-style: italic;
+                        color: #333;
+                        padding: 20px 0px;
+                    }
+
+                    .fill {
+                        padding: 0px 0px 20px 0px;
+
+                        input {
+                            padding: 20px;
+                            border: 0.5px solid black;
+                            border-right: 0px;
+                            width: 50%; 
+                        }
+    
+                        button {
+                            padding: 20px;
+                            border: 1px solid black;
+                            border-left: 0px;
+                        }
+                    }
+
+                    .check {
+                        display: flex;
+
+                        input {
+                            margin: 10px;
+                        }
+
+                        label {
+                            opacity: 0.7;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
