@@ -1,0 +1,251 @@
+.menu-icon {
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    width: 50px;
+}
+
+.navs {
+    .nav1 {
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 70px;
+    
+            .logo {
+                img {
+                    height: 50px;
+                    cursor: pointer;
+                }
+            }
+        
+            .menu {
+                padding: 0;
+                display: block;
+                justify-content: space-between;
+                align-items: center;
+    
+                ul {
+                    display: flex;
+    
+                    li {
+                        list-style: none;
+                        display: flex;
+                        margin-top: 15px;
+    
+                        a {
+                            text-decoration: none;
+                            display: block;
+                            color: #333;
+                            font-weight: bold;
+                            position: relative;
+                            font-size: 15px;
+                            cursor: pointer;
+                            margin: 0px 5px;
+    
+                            img {
+                                width: 15px;
+                            }
+                        }
+    
+                        .line {
+                            margin: 0px 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .nav2 {
+        background-color: #333;
+    
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: auto;
+    
+            .menu {
+                padding: 0;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+    
+                ul {
+                    display: flex;
+                    margin: 0;
+                    padding: 0;
+    
+                    li {
+                        list-style: none;
+                        display: flex;
+                        margin: 0px 20px 0px 0px;
+                        padding: 0px 10px 0px 10px;
+                        align-items: center;
+                        height: 45px;
+                        font-weight: bolder;
+                        cursor: pointer;
+    
+                        .dropdown {
+                            color: white;
+                        }
+    
+                        img {
+                            width: 15px;
+                            height: 15px;
+                            margin: 10px;
+                        }
+    
+                        .up {
+                            display: none;
+                        }
+
+                        .dropdown-content {
+                            position: absolute;
+                            text-align: left;
+                            justify-content: flex-start;
+                            display: flex;
+                            top: 10vh;
+                            left: 0;
+                            padding: 30px 15.5vw;
+                            width: 100%;
+
+                            .column {
+                                width: 25%;
+
+                                .item {
+                                    a {
+                                        text-decoration: none;
+                                        color: #333;font-weight: normal;
+                                    }
+
+                                    a:hover {
+                                        color: gold;
+                                    }
+                                } 
+                            }
+                        }
+                    }
+    
+                    li:hover {
+                        background-color: white;
+                    }
+    
+                    li:hover {
+                        .dropdown {
+                            color: #333;
+                        }
+    
+                        .up {
+                            display: flex;
+                        }
+    
+                        .down {
+                            display: none;
+                        }
+                    }
+                }
+            }  
+    
+            button {
+                background-color: #333;
+                border: 1px solid white;
+                color: white;
+                font-weight: bolder;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 480px) {
+    .menu-icon {
+        display: flex;
+    }
+
+    .navs {
+        .nav1 {
+            margin-top: 200px;
+    
+            .logo {
+                display: none;
+            }
+    
+            .menu {
+                width: 100%;
+    
+                ul {
+                    flex-direction: column;
+                    align-items: center;
+                    padding: 0;
+    
+                    li {
+                        padding: 10px 0px;
+    
+                        .line {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        } 
+    
+        .nav2 {
+            flex-direction: column;
+            margin-top: 150px;
+    
+            .container {
+                flex-direction: column;
+                height: auto;
+                padding: 20px;
+    
+                .menu {
+                    width: 100%;
+        
+                    ul {
+                        flex-direction: column;
+                        align-items: center;
+                        padding: 0;
+                        width: 100%;
+        
+                        li {
+                            padding: 10px 0px;
+                            justify-content: space-between;
+                            flex-direction: row;
+                            width: 100%;
+                            height: auto;
+                            display: block;
+                            align-items: center;
+
+                            .dropdown-content {
+                                display: block;
+                                position: relative;
+                                text-align: center;
+                                align-items: center;
+                                top: auto;
+                                left: auto;
+                                width: 100%;
+    
+                                .column {
+                                    width: 100%;
+                                    margin: 20px 0px;
+                                }
+                            }
+                        }
+                    }
+                }
+    
+                button {
+                    margin: 20px;
+                }
+            }
+        } 
+    }
+
+    .navs.open {
+        display: none;
+    }
+}

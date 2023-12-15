@@ -1,0 +1,299 @@
+.destinations {
+    padding-bottom: 200px;
+    .container {
+        h1 {
+            margin: 80px 0px;
+            font-size: 400%;
+            font-style: italic;
+            font-weight: normal;
+            color:#333;
+        }
+
+        select {
+            width: 50%;
+            padding: 20px;
+            margin: 0px 0px 50px 0px;
+        }
+    }
+}
+
+.content1 {
+    img {
+        width: 60%;
+        max-width: 60%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .content {
+        margin-top: -300px;
+        padding: 0px 10px;
+
+        .img-container {
+            img {
+                width: 250px;
+            }
+        }
+
+        .text-area {
+            padding: 40px 50px;
+            background-color: white;
+            box-shadow: 2px 1px 5px 0px black;
+            text-align: left;
+
+            h3 {
+                font-style: italic;
+                color: #333;
+            }
+
+            p {
+                font-weight: lighter;
+            }
+
+            button {
+                border: none;
+                background-color: #333;
+                padding: 10px;
+                color: white;
+                font-style: italic;
+            }
+        }
+        
+    }
+}
+
+.content2 {
+    img {
+        width: 60%;
+        max-width: 60%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .content {
+        margin-top: -300px;
+        padding: 0px 10px;
+
+        .img-container {
+            img {
+                width: 250px;
+            }
+        }
+
+        .text-area {
+            padding: 40px 50px;
+            background-color: white;
+            box-shadow: 2px 1px 5px 0px black;
+            text-align: left;
+
+            h3 {
+                font-style: italic;
+                color: #333;
+            }
+
+            p {
+                font-weight: lighter;
+            }
+
+            button {
+                border: none;
+                background-color: #333;
+                padding: 10px;
+                color: white;
+                font-style: italic;
+            }
+        }
+        
+    }
+}
+
+.content3 {
+    img {
+        width: 60%;
+        max-width: 60%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .content {
+        margin-top: -300px;
+        padding: 0px 10px;
+
+        .img-container {
+            img {
+                width: 250px;
+            }
+        }
+
+        .text-area {
+            padding: 40px 50px;
+            background-color: white;
+            box-shadow: 2px 1px 5px 0px black;
+            text-align: left;
+
+            h3 {
+                font-style: italic;
+                color: #333;
+            }
+
+            p {
+                font-weight: lighter;
+            }
+
+            button {
+                border: none;
+                background-color: #333;
+                padding: 10px;
+                color: white;
+                font-style: italic;
+            }
+        }
+        
+    }
+}
+
+@media (max-width: 480px) {
+    .content1 {
+        .content {
+            margin-top: 10vh;
+    
+            .img-container {
+                img {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .content2 {
+        .content {
+            margin-top: 10vh;
+        }
+    }
+
+    .content3 {
+        .content {
+            margin-top: 10vh;
+        }
+    }
+}
+
+.news {
+    margin: 0px 0px 100px 0px;
+
+    .container {
+        h1 {
+            color: #333;
+            text-align: left;
+            font-weight: bold;
+            padding: 5px 0px;
+        }
+
+        h6 {
+            color: #333;
+            text-align: left;
+            font-size: 20px;
+            padding: 5px 0px;
+        }
+
+        .offer-container {
+            .card-container {
+                padding: 10px 10px;
+
+                .card {
+                    border-radius: 0px;
+                    border: none;
+
+                    img {
+                        border-radius: 0px;
+
+                    }
+
+                    .card-img-overlay {
+                        background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+
+                        h5 {
+                            margin-top: 50%;
+                            font-size: 25px;
+                        }
+                    }
+
+                    .card-img-overlay:hover h5 {
+                        margin-top: 10%;
+                        transition: 0.5s;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.offers {
+    .container {
+        h1 {
+            font-weight: bold;
+            padding: 100px 0px;
+        }
+
+        .row {
+            padding-bottom: 200px;
+
+            .col {
+                .card {
+                    border-radius: 0px;
+                    border: none;
+                    box-shadow: 1px 1px 5px 0px black;
+
+                    .card-body {
+                        .text {
+                            .p1 {
+                                font-size: 15px;
+                                font-weight: bolder;
+                                height: 40px;
+                            }
+    
+                            .p2 {
+                                font-size: 20px;
+                                height: 80px;
+                            }
+    
+                            .p3 {
+                                font-size: 15px;
+                                font-weight: lighter;
+                                height: 60px;
+                            }
+    
+                            .p4 {
+                                font-size: 20px;
+                                height: 60px;
+                            }
+                        }
+
+                        button {
+                            padding: 10px;
+                            border: 1px solid #333;
+                            background-color: white;
+                            color: #333;
+                        }
+
+                        button:hover {
+                            border: 1px solid gold;
+                            color: gold;
+                        }
+                    }
+                }
+
+                .card:hover {
+                    box-shadow: 1px 1px 8px 0px black;
+                }
+
+                img {
+                    border-radius: 0px;
+                }
+            }
+        }
+    }
+}
