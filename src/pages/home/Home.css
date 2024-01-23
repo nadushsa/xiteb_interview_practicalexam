@@ -1,18 +1,21 @@
 .destinations {
     padding-bottom: 200px;
+
     .container {
         h1 {
             margin: 80px 0px;
             font-size: 400%;
             font-style: italic;
             font-weight: normal;
-            color:#333;
+            color:#77328B;
         }
 
         select {
             width: 50%;
             padding: 20px;
             margin: 0px 0px 50px 0px;
+            color: #252776;
+            font-style: italic;
         }
     }
 }
@@ -44,7 +47,7 @@
 
             h3 {
                 font-style: italic;
-                color: #333;
+                color: #77328B;
             }
 
             p {
@@ -53,7 +56,7 @@
 
             button {
                 border: none;
-                background-color: #333;
+                background-color: #252776;
                 padding: 10px;
                 color: white;
                 font-style: italic;
@@ -186,10 +189,11 @@
 
     .container {
         h1 {
-            color: #333;
+            color: #104C97;
             text-align: left;
             font-weight: bold;
             padding: 5px 0px;
+            letter-spacing: 2px;
         }
 
         h6 {

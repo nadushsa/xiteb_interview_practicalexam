@@ -58,7 +58,7 @@ const Footer = () => {
                             </div>
                             <div className="check">
                                 <input type = "checkbox" />
-                                <label> By Checking this box, I consent to the processing of my Personal Data by Cinnamon for the purpose and within the Conditions set out in this form and the </label>
+                                <label>  By Checking this box, I consent to the processing of my Personal Data by Cinnamon for the purpose and within the Conditions set out in this form and the <b>Cinnamon Data Protection Policy</b> * </label>
                             </div>
                         </form>
                     </div>
