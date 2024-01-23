@@ -68,6 +68,27 @@ const Featured = () => {
             <div className="featured-mobile">
                 <button>Book a room now</button>
             </div>
+
+            <form className="form row">
+                <div className="container col-lg-4 col-md-4 col-sm-12 col-12">
+                    <input type="date" name = "date"/>
+                </div>
+                <div className="container col-lg-3 col-md-3 col-sm-12 col-12">
+                    <select >
+                        <option>1 Room</option>
+                        <option>2 Rooms</option>
+                        <option>3 Rooms</option>
+                        <option>4 Rooms</option>
+                    </select>   
+                </div>
+                <div className="container col-lg-3 col-md-3 col-sm-12 col-12">
+                    <input type = "text" name = "text" placeholder="Special Code"/>
+                </div>
+                <div className="container col-lg-2 col-md-2 col-sm-12 col-12">
+                    <button type="submit">Search</button>
+                </div>
+                
+            </form>
         </div>
     );
 }
